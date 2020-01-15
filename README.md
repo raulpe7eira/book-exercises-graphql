@@ -79,7 +79,7 @@ http-server .\
       prisma info
       ```
 
-  2. Set endpoint _scripts.js_
+  2. Set endpoint in _scripts.js_
 
       ```javascript
       endpoint: 'https://eu1.prisma.sh/raul-pereira-29c5b0/graphql-prisma/dev',
@@ -91,7 +91,7 @@ http-server .\
 
 - Uses local backend
 
-  1. Set endpoint _scripts.js_
+  1. Set endpoint in _scripts.js_
 
       ```javascript
       endpoint: 'http://localhost:3000',
