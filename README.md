@@ -19,14 +19,14 @@ Exercises of [GraphQL Book](https://www.casadocodigo.com.br/products/livro-graph
 
 > Online backend service
 
-1. Install and init new prisma project
+1. Installs and inits new prisma project
 
     ```bash
     npm i -g prisma
     prisma init graphql-prisma
     ```
 
-2. Choose _Demo server_
+2. Chooses _Demo server_
 3. Changes _datamodel.prisma_ content with:
 
     ```graphql
@@ -44,7 +44,7 @@ Exercises of [GraphQL Book](https://www.casadocodigo.com.br/products/livro-graph
     }
     ```
 
-4. Deploy
+4. Deploys
 
     ```bash
     prisma deploy
@@ -73,13 +73,13 @@ http-server .\
 
 - Uses online backend
 
-  1. Get endpoint
+  1. Gets endpoint
 
       ```bash
       prisma info
       ```
 
-  2. Set endpoint in _scripts.js_
+  2. Sets endpoint in _scripts.js_
 
       ```javascript
       endpoint: 'https://eu1.prisma.sh/raul-pereira-29c5b0/graphql-prisma/dev',
@@ -91,7 +91,7 @@ http-server .\
 
 - Uses local backend
 
-  1. Set endpoint in _scripts.js_
+  1. Sets endpoint in _scripts.js_
 
       ```javascript
       endpoint: 'http://localhost:3000',
