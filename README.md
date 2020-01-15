@@ -8,7 +8,7 @@ Exercises of [GraphQL Book](https://www.casadocodigo.com.br/products/livro-graph
 
 - [Prisma](https://www.prisma.io/)
 - [Node.js](https://nodejs.org)
-- [GraphQL Yoga](https://github.com/prisma-labs/graphql-yoga)
+- [Apollo GraphQL](https://www.apollographql.com/)
 - [Nodemon](https://nodemon.io/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Http-server](https://github.com/http-party/http-server)
