@@ -1,0 +1,12 @@
+type Aluno {
+  id: ID! @id
+  nomeCompleto: String!
+  idade: Int
+  curso: Curso
+}
+
+type Curso {
+  id: ID! @id
+  disciplina: String!
+  alunos: [Aluno!]!
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Course GraphQL</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4 text-center">Curso GraphQL</h1>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="card">
+                <div class="card-header">
+                    <form name="novoAluno" onsubmit="Template.criarAluno()">
+                        <div class="form-row">
+                            <div class="col-auto">
+                                <input type="text" name="nomeCompleto" placeholder="Nome Completo" class="form-control">
+                            </div>
+                            <div class="col-auto">
+                                <input type="number" name="idade" placeholder="Idade" class="form-control">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary">Adicionar Aluno</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul id="listaAlunos" class="list-group list-group-flush">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
